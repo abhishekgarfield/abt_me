@@ -145,18 +145,25 @@ display: block;
 {
     display: inline;
     width: 13%;
+    text-decoration: none;
     text-align: center;
     padding: 0.4rem;
     background-color:white;
     font-weight: bold;
     
 }
+
 .nav ul li img
 {
     display: block;
     width: 2rem;
     height: 2rem;
 
+}
+.nav ul li a
+{
+    text-decoration: none;
+    color: inherit;
 }
 .nav ul li:first-child
 {
@@ -196,8 +203,8 @@ display: block;
     padding: 0rem;
     margin-left: 1rem;
     color: red;
-   
-    vertical-align: middle;
+   display: block;
+    
     
 }
 .navicon img
@@ -277,6 +284,7 @@ section
     padding: 2.8rem;
     
     
+    
 }
 .education
 {
@@ -303,8 +311,7 @@ section
 }
 .skills table th , .skills table td
 {
-    width: 13rem;
-    height: 2rem;
+   
     opacity: 1;
     
     
@@ -421,14 +428,22 @@ footer
     margin-top: 3rem;
     padding: 1rem;
     
-    
+    clear: both;
 }
 .foot_cont
 {
-    width: 97%;
+    width:100%;
     background-color: white;
-    padding: 1rem;
+    padding: 0rem;
+    overflow: hidden;
+    margin: auto;
     border: 2px solid rgb(107, 199, 235);
+}
+.sec_ft
+{
+    width: 97%;
+    padding: 1rem;
+    margin: 0rem auto;
 }
 .sec_con
 {
@@ -438,5 +453,134 @@ footer
     margin-top: 1rem;  
 }
 
+/* mobile devices and tablets */
+
+@media screen and  (max-width: 1080px) and (min-width: 670px){
+    .education , .skills{
+        width: 97%;
+    }
+    
+
+.skills
+{
+    margin: 3rem auto;
+}
+.achievements
+{
+    width: 97%;
+    margin-top: 2rem;
+
+}
+.certifications
+{
+    width: 97%;
+    margin-left: 0rem;
+}
+footer
+{
+    width: 97%;
+    clear: both;
+    margin: 2rem auto 2rem auto;
+}
+.hobbies
+{
+    width: 97%;
+    margin-left: 0rem;
+    margin-top: 3rem;
+}
+.Experience
+{
+    width: 97%;
+    margin-left: 0rem;
+}
+.foot_cont
+{
+    width: 97%;
+}
+
+.sec_con
+{
+    margin-top: 0rem;
+    overflow: hidden;
+}
+.info
+{
+    width: 97%;
+}
+.ima
+{
+    padding: 1rem;
+}
 
 
+}
+
+@media screen and   (max-width:670px)
+{
+    .nav
+{
+    display: none;
+}
+.navicon
+{
+    display: none;
+}
+.education , .skills{
+    width: 97%;
+}
+
+
+.skills
+{
+margin: 3rem auto;
+}
+.achievements
+{
+width: 97%;
+margin-top: 2rem;
+
+}
+.certifications
+{
+width: 97%;
+margin-left: 0rem;
+}
+footer
+{
+width: 97%;
+clear: both;
+padding: 1rem;
+}
+.hobbies
+{
+width: 97%;
+margin-left: 0rem;
+margin-top: 3rem;
+}
+.Experience
+{
+width: 97%;
+margin-left: 0rem;
+}
+.foot_cont
+{
+width: 100%;
+margin-top: 1rem;
+
+}
+
+.sec_con
+{
+margin-top: 0rem;
+overflow: hidden;
+}
+.info
+{
+width: 97%;
+}
+.ima
+{
+padding: 1rem;
+}
+    
+}
