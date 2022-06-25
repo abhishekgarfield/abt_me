@@ -20,6 +20,11 @@ header
     
     
 }
+.ln
+{
+    height: inherit;
+    border: 2px #00aff0;
+}
 .conta
 {
     font-size: 1.4rem;
@@ -89,13 +94,7 @@ header
     background: #00aff0;
     color: white;
   }
-.bck
-{
-    width: 100%;
-    overflow: hidden;
-    color: white;
-    
-}
+
 .eduction_icon , .skills_icon , .certi_icon , .exp_icon, .ach_icon , .hob_icon , .foot_icon
 {
     width: 100%;
