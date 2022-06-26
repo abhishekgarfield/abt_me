@@ -437,14 +437,26 @@ footer
     background-color: white;
     padding: 0rem;
     overflow: hidden;
-    margin: auto;
     border: 2px solid rgb(107, 199, 235);
 }
 .sec_ft
 {
-    width: 97%;
+    width: 47%;
+    float: left;
     padding: 1rem;
     margin: 0rem auto;
+}
+.sec_ft iframe
+{
+display: block;
+margin: 0rem auto;
+}
+.map
+{
+    width: 47%;
+    float: left;
+    padding: 1rem;
+   
 }
 .sec_con
 {
@@ -512,6 +524,13 @@ footer
 {
     padding: 1rem;
 }
+.sec_ft
+{
+    width: 45%;
+}
+.map{
+    width: 45%;
+}
 
 
 }
@@ -568,6 +587,13 @@ margin-left: 0rem;
 width: 100%;
 margin-top: 1rem;
 
+}
+.sec_ft
+{
+    width: 100%;
+}
+.map{
+    width: 100%;
 }
 
 .sec_con
