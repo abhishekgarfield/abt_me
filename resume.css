@@ -226,6 +226,7 @@ display: block;
     width: 77%;
     padding: 1rem;
     height: inherit;
+    color: white;
    
 }
 .download
@@ -256,6 +257,7 @@ section
     margin:2rem auto 0rem auto;
     overflow: visible;
     float: left;
+
    border: 2px solid rgb(107, 199, 235);
 }
 .education table
