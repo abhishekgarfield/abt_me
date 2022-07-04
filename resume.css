@@ -578,6 +578,10 @@ margin: 0rem auto;
     text-decoration: none;
     color: #007bb5;
 }
+hr
+{
+    border: 1px solid rgb(107, 199, 235);
+}
 
 
 
@@ -616,6 +620,10 @@ footer
     margin: 2rem auto 2rem auto;
     padding: 1%;
 }
+.sec_sec
+{
+    margin-top: 0rem;
+}
 .hobbies
 {
     width: 97%;
@@ -641,6 +649,7 @@ footer
 {
     margin-top: 0rem;
     overflow: hidden;
+    padding-top: 1rem;
 }
 .info
 {
@@ -673,7 +682,16 @@ footer
 {
     height: 25rem;
 }
-
+.projects
+{
+    width: 97%;
+    padding:1rem;
+    margin: 2rem auto 0rem auto;
+}
+.pro_back 
+{
+    width: 99%;
+}
 
 
 }
@@ -743,6 +761,7 @@ margin-top: 1rem;
 {
 margin-top: 0rem;
 overflow: hidden;
+padding-top: 1rem;
 }
 .info
 {
