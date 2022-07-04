@@ -93,12 +93,12 @@ header
     color: white;
   }
 
-.eduction_icon , .skills_icon , .certi_icon , .exp_icon, .ach_icon , .hob_icon , .foot_icon
+.eduction_icon , .skills_icon , .certi_icon , .exp_icon, .ach_icon , .hob_icon , .foot_icon ,.pro_icon
 {
     width: 100%;
     
 }
-.eduction_icon img , .skills_icon img , .certi_icon img , .exp_icon img , .ach_icon img , .hob_icon img , .foot_icon img
+.eduction_icon img , .skills_icon img , .certi_icon img , .exp_icon img , .ach_icon img , .hob_icon img , .foot_icon img ,.pro_icon img
 {
 height: 5rem;
 margin: -3rem auto;
@@ -106,7 +106,7 @@ display: block;
 
 
 }
-.eduction_icon img:hover , .skills_icon img:hover , .certi_icon img:hover , .exp_icon img:hover , .ach_icon img:hover , .hob_icon img:hover ,.navicon img:hover ,.nav .close:hover , .foot_icon img:hover
+.eduction_icon img:hover , .skills_icon img:hover , .certi_icon img:hover , .exp_icon img:hover , .ach_icon img:hover , .hob_icon img:hover ,.navicon img:hover ,.nav .close:hover , .foot_icon img:hover ,.pro_icon img:hover
 {
     opacity: 0.8;
     transition: 0.3s all;
@@ -295,7 +295,7 @@ float: left;
     overflow: visible;
    
 }
-.skills:hover ,.achievements:hover , .hobbies:hover  ,.certifications:hover ,.Experience:hover
+.skills:hover ,.achievements:hover , .hobbies:hover  ,.certifications:hover ,.Experience:hover 
 {
     transform: scale(1.03); 
     overflow: visible;
@@ -343,7 +343,7 @@ float: left;
 .certifications , .Experience , .hobbies
 {
     width: 47%;
-    
+    height: 9.8rem;
     overflow: visible;
     float: left;
     background-color: whitesmoke;
@@ -364,6 +364,7 @@ float: left;
 .hobbies
 {
     margin-top: 0rem;
+    height: auto;
 }
 .firstcertificate , .exp1
 {
@@ -492,6 +493,95 @@ margin: 0rem auto;
     margin-top: 1rem;  
 }
 
+/* projects */
+
+.projects
+{
+    width: 97%;
+    clear: both;
+    overflow: visible;
+    padding: 1%;
+    margin-top: 2rem;
+    
+}
+.pro_cont1 , .pro_cont2 , .pro_cont3
+{
+    display: inline-block;
+    background-color: white;
+    height: 20rem;
+    width: 98%;
+    padding: 1% 1%;
+    overflow: visible;
+    margin: 2rem 0rem;
+}
+.pro_cont1_cont1 ,.pro_cont2_cont2,.pro_cont3_cont3
+{
+    width: 30%;
+    float: left;
+    transition: 0.5s transform;
+    height: 100%;
+    margin: 7rem auto 0rem auto;
+}
+    
+
+.pro_cont3_cont3
+{
+    width: 40%;
+    margin: 0rem;
+}
+.pro_cont3_cont3:hover ,.pro_cont1_cont1:hover,.pro_cont2_cont2:hover
+{
+    transform: scale(1.04);
+}
+.pro_vw
+{
+    height: inherit;
+}
+.projects iframe
+{
+    height: 100%;
+    width: 100%;
+    border: 0px;
+    cursor:pointer;
+    
+}.pro_back 
+{
+    background-color: white;
+    overflow: visible;
+    padding-top: 1rem;
+    border: 2px solid rgb(107, 199, 235);
+}
+.pro_about, .pro_url ,.pro_name ,.pro_tech
+{
+    padding: 2%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.pro_about h2, .pro_url h2,.pro_name h2,.pro_tech h2
+{
+    margin: 0rem;
+    font-weight: bolder;
+    color: #bb0000b9;
+    
+}
+.pro_about h3, .pro_url h3,.pro_name h3,.pro_tech h3
+{
+    margin: 0rem;
+    color: #007bb5;
+    
+}
+.pro_about p
+{
+    margin: 0rem;
+}
+.pro_url a
+{
+    text-decoration: none;
+    color: #007bb5;
+}
+
+
+
+
 /* mobile devices and tablets */
 
 @media screen and  (max-width: 1080px) {
@@ -538,6 +628,7 @@ footer
     width: 97%;
     margin-left: 0rem;
     padding: 1%;
+    
 }
 .foot_cont
 {
@@ -563,9 +654,26 @@ footer
 {
     width: 45%;
 }
-.map{
+.map
+{
     width: 45%;
 }
+.pro_cont1_cont1 ,.pro_cont2_cont2,.pro_cont3_cont3
+{
+    width: 97%;
+    padding: 1%;
+    height:auto;
+    margin-top:0rem
+}
+.pro_cont1 , .pro_cont2  ,.pro_cont3
+{
+    height: auto;
+}
+.pro_cont3_cont3
+{
+    height: 25rem;
+}
+
 
 
 }
