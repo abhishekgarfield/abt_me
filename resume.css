@@ -701,10 +701,12 @@ footer
     .nav
 {
     display: none;
+    visibility: hidden;
 }
 .navicon
 {
     display: none;
+    visibility: hidden;
 }
 .education , .skills{
     width: 97%;
