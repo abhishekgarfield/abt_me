@@ -4,11 +4,11 @@ body
     padding: 0rem;
     width: 100%;
     overflow: scroll;
-    background-image: url('images/back2.jpg');
+    background-image: url('/images/back2.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-blend-mode: lighten;
+    background-attachment: fixed;
     
 }
 header
