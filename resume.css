@@ -144,10 +144,15 @@ display: block;
     width: 13%;
     text-decoration: none;
     text-align: center;
-    padding: 0.4rem;
     background-color:white;
     font-weight: bold;
     
+}
+.nav ul li a{
+
+width: 100%;
+    display: block;
+    padding: 6px 0px;
 }
 
 .nav ul li img
