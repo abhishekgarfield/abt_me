@@ -122,11 +122,13 @@ display: block;
 }
 .nav
 {
-    color: aliceblue;
+    color: white;
     width: 97%;
     padding: 0rem;
     margin-left: 1rem;
-    display: none;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
     
 }
 .nav ul
@@ -144,7 +146,7 @@ display: block;
     width: 13%;
     text-decoration: none;
     text-align: center;
-    background-color:white;
+    background-color:rgba(107, 199, 235, 0.827);
     font-weight: bold;
     
 }
@@ -172,23 +174,12 @@ width: 100%;
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px; 
 }
-.nav ul li:nth-last-child(2)
+.nav ul li:nth-last-child(1)
 {
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
 }
-.nav .close
-{
-    width: fit-content;
-    background-color: transparent;
-    padding: 0rem;
-    border-radius: 6px;
-}
-.nav .close:hover
-{
-    background-color: rgba(255, 0, 0, 0.635);
-    transition: 0.5s all;
-}
+
 .nav ul li:hover
 {
     background-color: rgba(173, 173, 173, 0.178);
@@ -199,24 +190,7 @@ width: 100%;
 
     
 }
-.navicon
-{
-    width: 14%;
-    padding: 0rem;
-    margin-left: 1rem;
-    color: red;
-   display: block;
-    
-    
-}
-.navicon img
-{
-    width: 2rem;
-    height: 2rem;
-    vertical-align: middle;
 
-    
-}
 .ima img
 {
     width: 100%;
