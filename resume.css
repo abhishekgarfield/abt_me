@@ -145,6 +145,7 @@ display: block;
     display: inline;
     width: 13%;
     text-decoration: none;
+    transition: 0.5s all;
     text-align: center;
     background-color:rgba(211, 211, 211, 0.936);
     font-weight: bold;
@@ -183,8 +184,8 @@ width: 90%;
 
 .nav ul li:hover
 {
-    background-color: rgba(173, 173, 173, 0.54);
-    color: rgb(64, 185, 254);
+    background-color: rgba(173, 173, 173, 0.741);
+    
     
     cursor: pointer;
 
@@ -192,6 +193,7 @@ width: 90%;
 }
 .nav ul li a:hover{
     transform: scale(1.1);
+    color: rgb(64, 185, 254);
 }
 
 .ima img
