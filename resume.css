@@ -750,10 +750,12 @@ padding-top: 1rem;
 .info
 {
 width: 97%;
+padding:0rem  1rem;
 }
 .ima
 {
-padding: 1rem;
+    padding:0rem 1rem;
 }
     
 }
+
