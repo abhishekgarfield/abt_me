@@ -28,7 +28,7 @@ header
     font-size: 1.4rem;
 }
 .conta a
-{
+{ padding: 0px 2px;
     text-decoration: none;
  
 }
